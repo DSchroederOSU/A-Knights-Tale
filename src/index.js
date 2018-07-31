@@ -1,3 +1,5 @@
+const lodash = require('lodash');
+
 function component() {
     var element = document.createElement('div');
 

@@ -1,0 +1,32 @@
+{
+  "name": "a_knights_tale",
+  "version": "1.0.0",
+  "description": "A web-based RPG experience. Fight your way to the top!",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSchroederOSU/A-Knights-Tale.git"
+  },
+  "keywords": [
+    "RPG",
+    "game",
+    "adventure"
+  ],
+  "author": "Daniel Schroeder <schrodan@oregonstate.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSchroederOSU/A-Knights-Tale/issues"
+  },
+  "homepage": "https://github.com/DSchroederOSU/A-Knights-Tale#readme",
+  "devDependencies": {
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
