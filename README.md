@@ -1,4 +1,6 @@
-# vuestate
+# A Knight's Tale
+
+The most interactive Vue.js and Vuex web-based RPG game on the market. Built as a starter project to learn Vue.js and Vuex frameworks.
 
 ## Project setup
 ```

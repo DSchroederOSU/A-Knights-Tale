@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
     <Header />  <!-- Add this -->
     <ControlPanel />  <!-- Add this -->
   </div>
@@ -12,7 +14,7 @@ import { mapState, mapMutations, mapActions } from 'vuex'
 import ControlPanel from '@/components/ControlPanel.vue'
 
 export default {
-    name: 'Home',
+    name: 'home',
     data() {
         return {
             newLink: ''

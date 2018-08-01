@@ -27,10 +27,12 @@ export default new Vuex.Store({
     },
     mutations: {
         DAMAGE_ENEMY: (state, damage) => {
-            state.enemyHealth -= damage;
+            let difference = parseInt(state.enemyHealth-damage);
+            (difference >= 0) ?  state.enemyHealth = difference : state.enemyHealth = 0;
         },
         REDUCE_PLAYER_MANA: (state, cost) => {
-            state.playerMana -= cost;
+            let difference = parseInt(state.playerMana-cost);
+            (difference >= 0) ?  state.playerMana = difference : state.playerMana = 0;
         }
     },
     actions: {
