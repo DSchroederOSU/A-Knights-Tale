@@ -1,41 +1,31 @@
 {
-  "name": "a_knights_tale",
-  "version": "1.0.0",
-  "description": "A web-based RPG experience. Fight your way to the top!",
+  "name": "vuestate",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DSchroederOSU/A-Knights-Tale.git"
-  },
-  "keywords": [
-    "RPG",
-    "game",
-    "adventure"
-  ],
-  "author": "Daniel Schroeder <schrodan@oregonstate.edu>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DSchroederOSU/A-Knights-Tale/issues"
-  },
-  "homepage": "https://github.com/DSchroederOSU/A-Knights-Tale#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.0.2",
-    "css-loader": "^1.0.0",
-    "node-sass": "^4.9.2",
-    "postcss-loader": "^2.1.6",
-    "sass-loader": "^7.0.3",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.16.3",
-    "webpack-cli": "^3.1.0"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "lodash": "^4.17.10",
-    "popper.js": "^1.14.3"
-  }
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
